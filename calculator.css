@@ -1,0 +1,52 @@
+#container {
+    width: 240px;
+    background-color: black;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#btnContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-items: center;
+    margin: 20px auto;
+}
+
+#display {
+    width: 100%;
+    height: 80px;
+    color: white;
+    font-size: 2rem;
+    text-align: right;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.operator {
+    background-color: orange;
+}
+
+#upper {
+    background-color: #5c5b5e;
+}
+
+#num {
+    background-color: #2a2a2c;
+}

@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+}
+#display { 
+    text-align: center;
+    font-size: 2em;
+    margin: 20px auto;
+}
+
+#btn {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#lap {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: rgba(162, 158, 158, 0.765);
+    color: rgb(71, 69, 69);
+    font-size: 1em;
+}
+
+.start { 
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: lightgreen;
+    color: green;
+    font-size: 1em;
+}
+
+.stop { 
+    background-color: tomato;
+    color: red;
+}
+
+#laplist {
+    display: column;
+    gap: 20px;
+}
+
+#lapTime {
+    display: flex;
+    justify-content: space-evenly;
+}
